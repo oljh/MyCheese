@@ -1,0 +1,81 @@
+DOWNLOAD "APPDL45T.BAS"
+OPEN "APPDL45T.DAT" FOR INPUT AS #1
+FOUT 0,1,4201
+CLOSE #1
+EOP
+DOWNLOAD "APPDL45T.DAT",4201,
+^XA
+^SZ2^JMA
+^MCY^PMN
+^PW810
+~JSN
+^JZY
+^LH0,0^LRN
+^XZ
+~DGR:SSGFX000.GRF,3070,10,:Z64:eJzdlb9LXEEQx2ez6orIWwNKCBw+S7EISXf5dXeFYmvAI00g+RNsAinUW7SISNB/QUyRYBHbgAFP0udf8BELIcXxrHyB821mZn8oKgkEQ8Th7vnxe7O7szOz+0QD2HoaOnOkM517yk+11FN6VssvajrHCRs98DLX1luWBvqDpn/rB1dsl6yb/UXMJ8f7reP9heO2zsaWdLbUP2YoVy6HlBeXG8rVeY3+T8/7nY4tOx2L385f5OoybWB8c5U/5mryN7ARviFm1wfuG/Z7Vgv71Wf9Tsd+Xx3f/jG+uX5N9/tPrCfSF36KIegtnFCA9jSPp8nREwjnoCLiiZCOxAwor+FQ68a+gdR2PdVtyTQHLa8BWO8nnsUTVniahQVPNXjoKYXbnkZxWTd2GJcN80UaRrJMKVIZyf2q18O6ytXrpAEYnqsgOvoKRg1971h7NDIy0uU1Ck5KWM1RyYH2TuNklB6Qh86vBuLYxTwP4sBRF8Qek8LxwlERKQ95UQaJc9ULTKXPWsvvjUItI4WchtxDrAdNfZGgHimNJMNYEC8CwS246TYOY0AfgCr2J+SOMpAZUQVJtYkGkbRhTWRQ4+OToPY5YRJtkWtyTKSRGTsqaZRJ6VcpzT2oEymFzdBit2VTwCJSKt+KnFoJ9PKa3AAqg9r7po3gsmZrNWANH9hHLr6i8PHd7TZAMckyXOQKW4RD2XpvJ7a2KRR7aOt2n6jzwX7q7JqJrY/sV8dG7/LYGtMDnG+RO6ooMihJwyVz7FvU5MHqI4wCNb38blQUpNXkml5mraIS9TUn6peJPMh4PtzvUc7zJX3mJ/tBouBp4TRpEqdVpOmbZ21Qmlul0zCnLr6qNLBrmEQbUkN+Va5H/8oKVi1z+8W/mc8BkYrkckX3j/Ttfj+2+xwIT1WfZ6ZuJH/MKsDV4k7AZLEN0b0ULDWBXDDcFlE7vW7/h4lGJBOpfdM0rHSwOXrMBJJlIGUbwFXFXqNxFSZqCjrGLZv3Tk1NT01OItXD+7x43Ww+Z+q+onceU4MvbSIKxFGbpwhUD37urdJ9vLOzs8vzjTSbzZfNZsvdxwmvS6QiYb+nNvO7c5ESKRv2KWYv3TFbNVIl0uB1034Byf0QOw==:00F7
+^XA
+^DFR:SSFMT000.ZPL^FS
+^FT30,900
+^CI28
+^A@B,20,20,TT0003M_^FDИзготовитель: ОАО «Милкавита» Полесский производственный участок, ул. Жукова, 1,  ^FS
+^FT51,900
+^A@B,20,20,TT0003M_^FD247618 г.Хойники, Республика Беларусь, тел./факс +375 2346 30430, e-mail: rmp@tut.by^FS
+^FT72,923
+^A@B,20,20,TT0003M_^FDЮридический адрес: ОАО «Милкавита», ул. Бр. Лизюковых, 1, 246029 г. Гомель, Республика^FS
+^FT93,888
+^A@B,20,20,TT0003M_^FDБеларусь, тел/факс: +375232237229, e-mail: mellug@mail.gomel.by , www.milkavita.by^FS
+^FT114,946
+^A@B,20,20,TT0003M_^FDПрием претензий на территории Евразийского экономического союза осуществляет изготовитель^FS
+^FT310,922
+^A@B,25,25,TT0003M_^FD    Условия хранения (в том числе после вскрытия упаковки): при^FS
+^FT336,922
+^A@B,25,25,TT0003M_^FDтемпературе воздуха от 0 °С до +4 °С и относительной влажности воздуха^FS
+^FT362,922
+^A@B,25,25,TT0003M_^FDот 80 % до 85 %^FS
+^FT148,836
+^A@B,39,39,TT0003M_^FDСыр полутвёрдый «Пармезан деЛюкс»^FS
+^FT189,895
+^A@B,39,39,TT0003M_^FDмассовой долей жира в сухом веществе 45%^FS
+^FT230,649
+^A@B,39,39,TT0003M_^FDТМ «Антон Палыч»^FS
+^FT271,903
+^A@B,39,39,TT0003M_^FDТУ BY 691312046.003  ТИ BY 400068171.027/2^FS
+^FT628,321
+^A@B,23,23,TT0003M_^FD0^FS
+^FT602,284
+^A@B,23,20,TT0003M_^FD+4^FS
+^FT403,922
+^A@B,28,28,TT0003M_^FDНОМЕР ПАРТИИ: $LN^FS
+^FT434,922
+^A@B,28,28,TT0003M_^FDДАТА ВЫРАБОТКИ (число, месяц, год): $odDateDMY^FS
+^FT466,922
+^A@B,28,28,TT0003M_^FDДАТА ИЗГОТОВЛЕНИЯ (число, месяц, год): $prDateDMY^FS
+^FT498,922
+^A@B,28,28,TT0003M_^FDПорядковый номер единицы транспортной упаковки: $BN^FS
+^FT529,922
+^A@B,28,28,TT0003M_^FDКоличество единиц упакованного сыра: $QIIB^FS
+^FT561,922
+^A@B,28,28,TT0003M_^FDГОДЕН ДО (число, месяц, год): $exDateDMY^FS
+^FT624,922
+^A@B,28,28,TT0003M_^FDМАССА ТАРЫ (кг): $FB^FS
+^FT593,922
+^A@B,28,28,TT0003M_^FDМАССА НЕТТО (кг): $NM^FS
+^FT656,922
+^A@B,28,28,TT0003M_^FDМАССА БРУТТО (кг): $GM^FS
+^FO703,49
+^BY2^BCB,63,N,N^FN1^FS
+^FT781,882
+^A@B,20,20,TT0003M_^FN2^FS
+^FO593,16
+^XGR:SSGFX000.GRF,1,1^FS
+^XZ
+^XA
+^XFR:SSFMT000.ZPL^FS
+^FN1^FD>;>80104811256001989>83103111111>811333333>817444444>810555555>821666666>8^FS
+^FN2^FD(01) 0 4811256 00198 9 (3103) 111111 (11) 333333 (17) 444444 (10) 555555 (21) 666666^FS
+^PQ1,0,1,Y
+^XZ
+^XA
+^IDR:SSFMT000.ZPL^XZ
+^XA
+^IDR:SSGFX000.GRF^XZ

@@ -1,0 +1,70 @@
+DOWNLOAD "EL45T_N.BAS"
+OPEN "EL45T_N.DAT" FOR INPUT AS #1
+FOUT 0,1,3423
+CLOSE #1
+EOP
+DOWNLOAD "EL45T_N.DAT",3423,
+^XA
+^SZ2^JMA
+^MCY^PMN
+^PW810
+^MNW
+~JSN
+^JZY
+^LH0,0^LRN
+^XZ
+~DGR:SSGFX000.GRF,1568,28,:Z64:eJyd1LFu2zAQBuBj2EQdUimjgbqQMnUsAy8eAthAnqG7H8FjBiOS4KFbkTGP0QcIUHrKa/ARNGoQdCHvbIgyqRSoBlHwJ5O8/wgBnC4F4ZWPTfh2y8NMFTRKy2gQazQARUW/zdWGxiRiqTKTdnWnefJPgW2TO34H5myHwXZyAcWEZfUv0VAp1lroskMLJxPNY+4WLLbAVg8GT13vhk3MvvRUg9ms14EJ+hsYofWUPewP+nwv8K2nUR4i1nVUQtmHe8nM45ObGbHybY/23VJeZLa+BG0cnv12y7RyIWwRGWLj5/Jqb3l1tahsnivE1reGAk6pDyVi589pjn13cSLaxQe75Z4uqe/W0LPvXJ9y50U4qwb7wbZRamS0lxWbVktbijPNfXdWcm+1mlHpvgnkjJfq+miGz5k1+ZfsoldpYCmvJ/FPQpH5NmfL0MiR2fWwZcvfGlHB9W71eq9ONaBhK+teaPg8+/oyuzmrT3RQggtPPvt9J0taWGkXqKwCyw1kzTZu9ia7Im7ucCL4NuyFHibMnYsU4nOuXaShIZ2Xy59rCExgw3lqCNaTH1obtfoflvynxeZEY/diaxtbsp82eWZN1Nx3cJyLfPPtmOfRBIJvp/PJ++QvUPzaec/vP2fL7A==:8574
+^XA
+^FT29,35
+^CI28
+^A@N,17,17,TT0003M_^FDИзготовитель: ОАО «Милкавита» Полесский производственный участок, ул. Жукова, 1,  ^FS
+^FT32,54
+^A@N,17,17,TT0003M_^FD247618 г.Хойники, Республика Беларусь, тел./факс +375 2346 30430, e-mail: rmp@tut.by^FS
+^FT11,72
+^A@N,17,17,TT0003M_^FDЮридический адрес: ОАО «Милкавита», ул. Бр. Лизюковых, 1, 246029 г. Гомель, Республика^FS
+^FT25,90
+^A@N,17,17,TT0003M_^FDБеларусь, тел/факс: +375(232) 23-72-29, E-mail: mellug@mail.gomel.by , www.gomelmilk.by^FS
+^FT43,108
+^A@N,17,17,TT0003M_^FDПрием претензий на территории Евразийского экономического союза осуществляет^FS
+^FT333,126
+^A@N,17,17,TT0003M_^FDизготовитель^FS
+^FT106,149
+^A@N,25,25,TT0003M_^FDСыр полутвердый «Эдам Lux» массовой долей ^FS
+^FT136,175
+^A@N,25,25,TT0003M_^FDжира в сухом веществе 45 % фасованный^FS
+^FT112,201
+^A@N,25,25,TT0003M_^FDТУ BY 400068171.023  ТИ BY 400068171.055/2 ^FS
+^FT8,225
+^A@N,20,20,TT0003M_^FD    Условия хранения (в том числе после вскрытия упаковки): при температуре^FS
+^FT8,246
+^A@N,20,20,TT0003M_^FDвоздуха от 0 °С до +5 °С и относительной влажности воздуха от 75 % до 85 %^FS
+^FT8,289
+^A@N,20,20,TT0003M_^FDНОМЕР ПАРТИИ: $LN^FS
+^FT8,333
+^A@N,20,20,TT0003M_^FDДАТА ИЗГОТОВЛЕНИЯ (число, месяц, год): $prDateDMY^FS
+^FT8,355
+^A@N,20,20,TT0003M_^FDПорядковый номер единицы транспортной упаковки: $BN^FS
+^FT8,377
+^A@N,20,20,TT0003M_^FDКоличество единиц упакованного сыра: $QIIB^FS
+^FT8,399
+^A@N,20,20,TT0003M_^FDГОДЕН ДО (число, месяц, год): $exDateDMY^FS
+^FT8,422
+^A@N,20,20,TT0003M_^FDМАССА НЕТТО (кг): $NM^FS
+^FT8,444
+^A@N,20,20,TT0003M_^FDМАССА ТАРЫ (кг): $FB^FS
+^FT8,466
+^A@N,20,20,TT0003M_^FDМАССА БРУТТО (кг): $GM^FS
+^FT8,311
+^A@N,20,20,TT0003M_^FDДАТА УПАКОВЫВАНИЯ (число, месяц, год): $paDateDMY^FS
+^FT555,448
+^A@N,17,17,TT0003M_^FD0^FS
+^FT582,434
+^A@N,17,14,TT0003M_^FD+5^FS
+^FT255,289
+^A@N,20,20,TT0003M_^FDДАТА ВЫРАБОТКИ (число, месяц, год): $odDateDMY^FS
+^FO554,423
+^XGR:SSGFX000.GRF,1,1^FS
+^PQ1,0,1,Y
+^XZ
+^XA
+^IDR:SSGFX000.GRF^XZ

@@ -1,0 +1,77 @@
+DOWNLOAD F,"EL45T.BAS"
+OPEN "EL45T.DAT" FOR INPUT AS #1
+FOUT 0,1,3978
+CLOSE #1
+EOP
+DOWNLOAD F,"EL45T.DAT",3978,
+^XA
+^SZ2^JMA
+^MCY^PMN
+^PW810
+~JSN
+^JZY
+^LH0,0^LRN
+^XZ
+~DGR:SSGFX000.GRF,3000,10,:Z64:eJzdlc1KHEEQx6tttUVkRk8hsDh7FA+B3DaH7O7NqwtZcgkkj7CHHHLwo9GDIkFfQcwleIgvEHAk95A3cMgeDB6WCQnsQMbtVFV/rJjFiBgINrvrz/9Ud1dXVdeIJvAYb8aZpTiLc0f5UEscJZe1/E8tzpvjuBq8zGPjRpZ4+osWX2sHdzxG7JvdwueL/ul6/3S1n8ZZdSPONqaqmmJlY0hxsbGhWF3V6P/kqt1w7qDXM/jt3SJWo7TphYMd/ui7id/0vv96n20d2K8/72XNnze+bDec+3Vn4eh84WDvPz3vPxnjgT7yr5iFicIKBcSOVmDdVX8N/D2oiHAjpCWxDMppONXYuW8gMaWjhhkwdWDdaQDG2YlWuGGFo2ew6qgOTxwlMOdoHre1c8dxW/PTzkWyK88hGaYEaRDIPo33/L7K5uuiCeiezSAaugwGDW0fGPO91WqVfG8LDorfzdKAHZ1YwsUoPCC71q4Oom99XgHRZRIliBMmhfOFpSJQ7uOiNBLHagI8gSXjKHFngxBnCLGHkA9aOtB66GSNQEkg6eeCeOEJxuC+jwWoAn2oxDsAuaUMZEZUQVIp0QxSrL1W5+sTIRURk0hFHpNhJLXM2FBJrXRCT6XUj6BBpBQWQ4PNtnQBa0iJ3BI5lRLEm7tyHygN6uQzLsFpzXbrwBreI6wj619ROP8elk1QTHLgG7nCEmFXDt+ZxcMjcsWcmYY5JTo/G3zoHevFw/ds1+Dqobl1LPkSHuN6a6wV3zIYkIZb5ugKkuzu1NCVhinizbfzoiC7utyNN0krKypSn3LSpmQkuxmvh+f9wRpEk/oX20Gk4KkjqSNeDypST66wHdIY74uNJhXWv5rUcKxJq4kUEs0a52Nqexuzltnz4t/MxYBIBbKxov4jQzvz5d4BUXgNhlQGctesApwtrgQMFo9Z6kt+JNqTdYbLImjDdnvbIZoBw/oivXdaFqhDD14TYRaw6RNhFrAhkzVdu4R6NkwC9UVKrAJq3PlEu/283W6jFt7JRYebLI6yCtRkiZo8kehVoKFWBfcWKOaw/fNKZXjbFwI3WOI9wG7csISVmpgvTCn249SdTpmmO50YhNMtW6qFE1eupSjQsJhmRtAou+iGdjdY7zfORQ4B:10C4
+^XA
+^DFR:SSFMT000.ZPL^FS
+^FT30,900
+^CI28
+^A@B,20,20,TT0003M_^FDИзготовитель: ОАО «Милкавита» Полесский производственный участок, ул. Жукова, 1,  ^FS
+^FT51,900
+^A@B,20,20,TT0003M_^FD247618 г.Хойники, Республика Беларусь, тел./факс +375 2346 41451, e-mail: rmp@tut.by^FS
+^FT72,923
+^A@B,20,20,TT0003M_^FDЮридический адрес: ОАО «Милкавита», ул. Бр. Лизюковых, 1, 246029 г. Гомель, Республика^FS
+^FT93,888
+^A@B,20,20,TT0003M_^FDБеларусь, тел/факс: +375232237229, e-mail: mellug@mail.gomel.by , www.milkavita.by^FS
+^FT114,946
+^A@B,20,20,TT0003M_^FDПрием претензий на территории Евразийского экономического союза осуществляет изготовитель^FS
+^FT495,917
+^A@B,25,25,TT0003M_^FD    Условия хранения (в том числе после вскрытия упаковки): при^FS
+^FT521,917
+^A@B,25,25,TT0003M_^FDтемпературе воздуха от 0 °С до плюс 4 °С и относительной влажности^FS
+^FT547,917
+^A@B,25,25,TT0003M_^FDвоздуха от 80 % до 85 %^FS
+^FT173,828
+^A@B,45,45,TT0003M_^FDСыр «Эдам Lux» массовой долей^FS
+^FT220,785
+^A@B,45,45,TT0003M_^FDжира в сухом веществе 45% ^FS
+^FT267,709
+^A@B,45,45,TT0003M_^FDТУ BY 400068171.023 ^FS
+^FT433,917
+^A@B,28,28,TT0003M_^FDНОМЕР ПАРТИИ: $LN^FS
+^FT337,917
+^A@B,28,28,TT0003M_^FDДАТА ВЫРАБОТКИ (число, месяц, год): $odDateDMY^FS
+^FT369,917
+^A@B,28,28,TT0003M_^FDДАТА ИЗГОТОВЛЕНИЯ (число, месяц, год): $prDateDMY^FS
+^FT465,917
+^A@B,28,28,TT0003M_^FDНомер ящика: $BN^FS
+^FT576,917
+^A@B,25,25,TT0003M_^FDКоличество единиц потребительской упаковки: $QIIB^FS
+^FT401,917
+^A@B,28,28,TT0003M_^FDГОДЕН ДО (число, месяц, год): $exDateDMY^FS
+^FT608,917
+^A@B,28,28,TT0003M_^FDМАССА НЕТТО (кг): $NM^FS
+^FT640,917
+^A@B,28,28,TT0003M_^FDМАССА БРУТТО (кг): $GM^FS
+^FO703,49
+^BY2^BCB,63,N,N^FN1^FS
+^FT781,882
+^A@B,20,20,TT0003M_^FN2^FS
+^FT602,277
+^A@B,17,12,TT0003M_^FD+4°С^FS
+^FT622,320
+^A@B,17,17,TT0003M_^FD0°С^FS
+^FO593,16
+^XGR:SSGFX000.GRF,1,1^FS
+^XZ
+^XA
+^XFR:SSFMT000.ZPL^FS
+^FN1^FD>;>80104811256002535>83103111111>811333333>817444444>810555555>821666666>8^FS
+^FN2^FD(01) 0 4811256 00253 5 (3103) 111111 (11) 333333 (17) 444444 (10) 555555 (21) 666666^FS
+^PQ1,0,1,Y
+^XZ
+^XA
+^IDR:SSFMT000.ZPL^XZ
+^XA
+^IDR:SSGFX000.GRF^XZ

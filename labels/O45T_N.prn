@@ -1,0 +1,68 @@
+DOWNLOAD "O45T_N.BAS"
+OPEN "O45T_N.DAT" FOR INPUT AS #1
+FOUT 0,1,3264
+CLOSE #1
+EOP
+DOWNLOAD "O45T_N.DAT",3264,
+^XA
+^SZ2^JMA
+^MCY^PMN
+^PW810
+^MNW
+~JSN
+^JZY
+^LH0,0^LRN
+^XZ
+~DGR:SSGFX000.GRF,1568,28,:Z64:eJyV1LFu2zAQANBjWZgd3CqjgTqQgQwdw6JDs9lAf0Sf4DGDEUn1HnTskCV/EKBLt9JTfoOfoFEDoSt5J9mUqSAIAYuyn6njHQ8CGIaGdORjE7GtKpoWekWz9IwW8YD2aEtd0Kx6qyOba/uizbThGO8T26qv/B9YJvHu5J+KNnORWl4r0VAq3lpw2aE95iCb25wCboGtPhnsnAtT0UzYx45ysMVmk5joaLLCmPN4g/2oD6lddrQV+ThhzoUvULp0L8re3oUnI1ax7dGHQvkz8w9ViCa2e0pdfRc+iQyxievy4C/ravYt1DNHbGNrqPhzOocS0cVm+3M3bF0U74pzuKFzRz8i+8KmQ7+IM7tmK7RvQhmsOsVbs1l905vhfglWkgmjF5T6YGGdQD73v3remz2uk//I3nV6lpjieBKfZlSy2JZsCq0cmY+HDdv6uZUVzHel222HHNCylcIJAx8Wn38vLs7y892CEAoqf8XnTqZayE0RrEost5A122nzF+lWsZ3idf1nyujmBQt98Qmm421CSVND6pcMDSQmsJm0wysmsX2z1a+YeuM6tD6ez21saj9YnZjcx+vG+cnRujN7jg34x94EQmzcZ8M++Q00PXbR/X/3qc/b:58BC
+^XA
+^FT29,35
+^CI28
+^A@N,17,17,TT0003M_^FDИзготовитель: ОАО «Милкавита» Полесский производственный участок, ул. Жукова, 1,  ^FS
+^FT32,54
+^A@N,17,17,TT0003M_^FD247618 г.Хойники, Республика Беларусь, тел./факс +375 2346 30430, e-mail: rmp@tut.by^FS
+^FT11,72
+^A@N,17,17,TT0003M_^FDЮридический адрес: ОАО «Милкавита», ул. Бр. Лизюковых, 1, 246029 г. Гомель, Республика^FS
+^FT25,90
+^A@N,17,17,TT0003M_^FDБеларусь, тел/факс: +375(232) 23-72-29, E-mail: mellug@mail.gomel.by , www.gomelmilk.by^FS
+^FT43,108
+^A@N,17,17,TT0003M_^FDПрием претензий на территории Евразийского экономического союза осуществляет^FS
+^FT333,126
+^A@N,17,17,TT0003M_^FDизготовитель^FS
+^FT119,149
+^A@N,25,25,TT0003M_^FDСыр полутвердый «Odertall» массовой долей^FS
+^FT209,175
+^A@N,25,25,TT0003M_^FD жира в сухом веществе 45 % ^FS
+^FT116,201
+^A@N,25,25,TT0003M_^FDТУ BY 400068171.017  ТИ BY 400068171.048/2^FS
+^FT8,225
+^A@N,20,20,TT0003M_^FDУсловия хранения (в том числе после вскрытия упаковки): при температуре^FS
+^FT8,246
+^A@N,20,20,TT0003M_^FDвоздуха от 0 °С до +4 °С и относительной влажности воздуха от 80 % до 85 %.^FS
+^FT8,311
+^A@N,20,20,TT0003M_^FDНОМЕР ПАРТИИ: $LN^FS
+^FT8,333
+^A@N,20,20,TT0003M_^FDДАТА ИЗГОТОВЛЕНИЯ (число, месяц, год): $prDateDMY^FS
+^FT8,355
+^A@N,20,20,TT0003M_^FDПорядковый номер единицы транспортной упаковки: $BN^FS
+^FT8,377
+^A@N,20,20,TT0003M_^FDКоличество единиц упакованного сыра: $QIIB^FS
+^FT8,399
+^A@N,20,20,TT0003M_^FDГОДЕН ДО (число, месяц, год): $exDateDMY^FS
+^FT8,422
+^A@N,20,20,TT0003M_^FDМАССА НЕТТО (кг): $NM^FS
+^FT8,444
+^A@N,20,20,TT0003M_^FDМАССА ТАРЫ (кг): $FB^FS
+^FT8,466
+^A@N,20,20,TT0003M_^FDМАССА БРУТТО (кг): $GM^FS
+^FT555,448
+^A@N,17,17,TT0003M_^FD0^FS
+^FT582,434
+^A@N,17,14,TT0003M_^FD+4^FS
+^FT255,311
+^A@N,20,20,TT0003M_^FDДАТА ВЫРАБОТКИ (число, месяц, год): $odDateDMY^FS
+^FO554,423
+^XGR:SSGFX000.GRF,1,1^FS
+^PQ1,0,1,Y
+^XZ
+^XA
+^IDR:SSGFX000.GRF^XZ
