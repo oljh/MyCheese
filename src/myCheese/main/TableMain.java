@@ -4,13 +4,13 @@ public class TableMain {
 
 	private String numBox;
 	private String weight;
-	private String numCook;
+	private String lotNum;
 	private String dateCook;
 
-	public TableMain(String numBox, String weight, String numCook, String dateCook) {
+	public TableMain(String numBox, String weight, String lotNum, String dateCook) {
 		this.setNumBox(numBox);
 		this.setWeight(weight);
-		this.setNumCook(numCook);
+		this.setLotNum(lotNum);
 		this.setDateCook(dateCook);
 	}
 
@@ -30,12 +30,12 @@ public class TableMain {
 		return weight;
 	}
 
-	public void setNumCook(String numCook) {
-		this.numCook = numCook;
+	public void setLotNum(String lotNum) {
+		this.lotNum = lotNum;
 	}
 
-	public String getNumCook() {
-		return numCook;
+	public String getLotNum() {
+		return lotNum;
 	}
 
 	public void setDateCook(String dateCook) {

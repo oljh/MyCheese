@@ -6,7 +6,6 @@ import javax.swing.table.TableModel;
 
 final class ModelMainTable implements TableModel  {
 	int count = 1;
-	private PalletList pl = new PalletList();
 
 	public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
 	}
@@ -39,7 +38,7 @@ final class ModelMainTable implements TableModel  {
 	}
 
 	public int getRowCount() {
-		return pl.getSize();
+		return PalletList.getSize();
 	}
 
 	public int getColumnCount() {
@@ -64,7 +63,7 @@ final class ModelMainTable implements TableModel  {
 	}
 
 	public Object getValueAt(int row, int col) {
-		TableMain mpl = pl.getPalletList().get(row);
+		TableMain mpl = PalletList.getPalletList().get(row);
 
 		switch (col) {
 		case 0:
@@ -74,7 +73,7 @@ final class ModelMainTable implements TableModel  {
 		case 2:
 			return mpl.getWeight();
 		case 3:
-			return mpl.getNumCook();
+			return mpl.getLotNum();
 		case 4:
 			return mpl.getDateCook();
 
