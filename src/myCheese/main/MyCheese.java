@@ -13,12 +13,12 @@ class MyCheese {
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				try {
-
 					UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-
+					
 					MainFrame mf = new MainFrame();
+					
 					mf.setVisible(true);
-					// Печать при старте всех экземпляров этикеток
+					// Печать, при старте, всех экземпляров этикеток
 					//PrintLables pl = new PrintLables();
 					//pl.print("labels//");
 					mf.listeners();
