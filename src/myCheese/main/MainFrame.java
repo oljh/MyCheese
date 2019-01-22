@@ -61,7 +61,8 @@ import javax.swing.ButtonGroup;
 
 import myCheese.components.OnlyInteger;
 import myCheese.connectionDevice.Weigher;
-import myCheese.connectionDevice.weighers.CASADH;
+import myCheese.connectionDevice.weighers.CASADH05;
+import myCheese.connectionDevice.weighers.CASADH20;
 import myCheese.connectionDevice.weighers.Etalon;
 import myCheese.db.QueriesToDB;
 import myCheese.io.ChangeZplCode;
@@ -598,12 +599,15 @@ class MainFrame extends JFrame implements ActionListener, FocusListener, Documen
 		pack();
 		setLocationRelativeTo(null);
 
-		if (id.getWeigherType().equals("CASADH")) {
-			weigher = new CASADH();
-		} else if (id.getWeigherType().equals("Etalon")) {
-			weigher = new Etalon();
+		if (id.getWeigherType().equals("CASADH20")) {
+			weigher = new CASADH20();
+			
+		}else if (id.getWeigherType().equals("CASADH05")) {
+			weigher = new CASADH05();
 		}
-
+		else if (id.getWeigherType().equals("Etalon")) {
+			weigher = new Etalon();
+		} 
 		
 		loop();
 

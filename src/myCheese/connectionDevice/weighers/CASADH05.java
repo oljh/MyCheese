@@ -11,7 +11,7 @@ import jssc.SerialPortTimeoutException;
 import myCheese.connectionDevice.Weigher;
 import myCheese.io.DataFields;
 
-public class CASADH extends Weigher {
+public class CASADH05 extends Weigher {
 
 	protected String dataString;
 	protected String dataHexString;
@@ -24,7 +24,7 @@ public class CASADH extends Weigher {
 	private Pattern p = Pattern.compile(strRegex);
 	private Matcher m;
 
-	public CASADH() {
+	public CASADH05() {
 		try {
 			serialPort.addEventListener(new PortReader(), SerialPort.MASK_RXCHAR);
 		} catch (SerialPortException e) {
@@ -49,9 +49,9 @@ public class CASADH extends Weigher {
 	protected String getWeight() {
 		// System.out.println(m.group(0));
 		if (m.group(2) == null) {
-			return (m.group(4) + m.group(5));
+			return (m.group(4));
 		} else {
-			return (m.group(2) + m.group(4) + m.group(5));
+			return (m.group(2) + m.group(4));
 		}
 	}
 
