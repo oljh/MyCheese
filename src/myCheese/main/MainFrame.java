@@ -1028,10 +1028,6 @@ class MainFrame extends JFrame implements ActionListener, FocusListener, Documen
 					if (DataFields.getWeightInt() <= 0 & nextPrintMark == false) {
 						nextPrintMark = true; // печать после обнуления весов
 					}
-					
-
-
-
 				}
 				System.out.println("Property \"" + e.getPropertyName() + "\" has new value: " + e.getNewValue());
 			}
@@ -1207,7 +1203,6 @@ class MainFrame extends JFrame implements ActionListener, FocusListener, Documen
 		outputRadioButton.setEnabled(b);
 		productionRadioButton.setEnabled(b);
 		packagingDateRadioButton.setEnabled(b);
-
 	}
 
 	boolean isValidDate(SimpleDateFormat pattern, Date date) {
